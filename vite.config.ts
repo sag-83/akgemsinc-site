@@ -4,5 +4,6 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/',
+  // Relative base works on GitHub project Pages and on the custom domain.
+  base: './',
 })
