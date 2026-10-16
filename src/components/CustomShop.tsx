@@ -1,3 +1,5 @@
+import { asset } from '../lib/asset'
+
 const steps = [
   {
     title: 'Brief',
@@ -41,7 +43,7 @@ export function CustomShop() {
 
         <div className="overflow-hidden bg-[var(--bg)] lg:col-span-6 lg:col-start-7">
           <img
-            src="/images/diamond.jpg"
+            src={asset('images/diamond.jpg')}
             alt="Certified loose diamond prepared for custom work"
             width={1200}
             height={1500}

@@ -1,3 +1,5 @@
+import { asset } from '../lib/asset'
+
 const links = [
   { href: '#lines', label: 'Lines' },
   { href: '#catalog', label: 'Catalog' },
@@ -17,7 +19,7 @@ export function Nav({ tone = 'light' }: NavProps) {
       <div className="shell flex items-center justify-between gap-6 py-5">
         <a href="#top" className="inline-flex items-center" aria-label="AK Gems Inc home">
           <img
-            src="/images/ak-logo.png"
+            src={asset('images/ak-logo.png')}
             alt="AK Gems"
             width={120}
             height={76}

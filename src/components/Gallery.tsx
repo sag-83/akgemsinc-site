@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { catalogPieces, productLines, type ProductLineId } from '../data/catalog'
+import { asset } from '../lib/asset'
 
 type GalleryProps = {
   active: ProductLineId | 'all'
@@ -81,7 +82,7 @@ export function Gallery({ active }: GalleryProps) {
               >
                 <div className="overflow-hidden bg-[var(--bg-deep)]">
                   <img
-                    src={piece.image}
+                    src={asset(piece.image)}
                     alt={piece.alt}
                     width={900}
                     height={1125}

@@ -1,11 +1,12 @@
 import { type CSSProperties } from 'react'
+import { asset } from '../lib/asset'
 import { Nav } from './Nav'
 
 export function Hero() {
   return (
     <section id="top" className="relative min-h-[100svh] overflow-hidden bg-[var(--ink)] text-[var(--bg)]">
       <img
-        src="/images/hero.jpg"
+        src={asset('images/hero.jpg')}
         alt="Diamond bracelet and ring arranged on champagne silk"
         width={1600}
         height={1000}

@@ -1,3 +1,5 @@
+import { asset } from '../lib/asset'
+
 export function About() {
   return (
     <section id="about" className="bg-[var(--bg)] py-[clamp(4.5rem,9vw,7.5rem)]">
@@ -27,7 +29,7 @@ export function About() {
 
       <div className="shell mt-14 overflow-hidden">
         <img
-          src="/images/rings.jpg"
+          src={asset('images/rings.jpg')}
           alt="Gold diamond rings from the AK Gems collection"
           width={1600}
           height={1000}
