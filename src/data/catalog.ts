@@ -87,33 +87,33 @@ export const catalogPieces: CatalogPiece[] = [
     title: 'Twisted bezel bracelet',
     line: 'bracelets',
     image: 'images/products/bezel-tennis/cover.jpg',
-    alt: 'Yellow gold twisted tubular bezel diamond bracelet on cream silk',
+    alt: 'Yellow gold twisted bezel diamond bracelet in oval layout on cream silk',
     blurb:
-      'Twisted tubular yellow-gold bezel mold with round diamonds facing top and sides. Full, layout, casting, face, and clasp views.',
+      'Yellow-gold stacked/ribbed bezel links with round diamonds. Full locked; layout, casting, face, and clasp match that mold.',
     shots: [
       {
         src: 'images/products/bezel-tennis/cover.jpg',
-        alt: 'Full twisted tubular yellow gold bezel diamond bracelet on cream silk',
+        alt: 'Full yellow gold twisted bezel diamond bracelet on cream silk',
         label: 'Full',
       },
       {
         src: 'images/products/bezel-tennis/layout.jpg',
-        alt: 'Twisted bezel bracelet layout showing multi-face diamond orientation',
+        alt: 'Layout of twisted bezel bracelet matching the full mold',
         label: 'Layout',
       },
       {
         src: 'images/products/bezel-tennis/casting.jpg',
-        alt: 'Casting profile of twisted tubular bezel links with side-facing diamonds',
+        alt: 'Casting profile of stacked ribbed bezel links',
         label: 'Casting',
       },
       {
         src: 'images/products/bezel-tennis/face.jpg',
-        alt: 'Face and side diamonds on twisted yellow gold bezel links',
+        alt: 'Face view of round diamonds in twisted bezel settings',
         label: 'Face',
       },
       {
         src: 'images/products/bezel-tennis/clasp.jpg',
-        alt: 'Clasp of twisted bezel bracelet with square head and side diamonds',
+        alt: 'Clasp detail matching the twisted bezel full mold',
         label: 'Clasp',
       },
     ],
