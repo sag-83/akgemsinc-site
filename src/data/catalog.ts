@@ -84,35 +84,36 @@ export const productLines: ProductLine[] = [
 export const catalogPieces: CatalogPiece[] = [
   {
     id: 'bracelet-bezel-tennis',
-    title: 'Bezel tennis bracelet',
+    title: 'Twisted bezel bracelet',
     line: 'bracelets',
     image: 'images/products/bezel-tennis/cover.jpg',
-    alt: 'Yellow gold round bezel-set diamond tennis bracelet on cream silk',
-    blurb: 'Round brilliant diamonds in yellow-gold bezel links. Full piece, casting, face, and clasp views.',
+    alt: 'Yellow gold twisted tubular bezel diamond bracelet on cream silk',
+    blurb:
+      'Twisted tubular yellow-gold bezel mold with round diamonds facing top and sides. Full, layout, casting, face, and clasp views.',
     shots: [
       {
         src: 'images/products/bezel-tennis/cover.jpg',
-        alt: 'Full yellow gold round bezel tennis bracelet on cream silk',
+        alt: 'Full twisted tubular yellow gold bezel diamond bracelet on cream silk',
         label: 'Full',
       },
       {
         src: 'images/products/bezel-tennis/layout.jpg',
-        alt: 'Bezel tennis bracelet in S-curve layout on cream silk',
+        alt: 'Twisted bezel bracelet layout showing multi-face diamond orientation',
         label: 'Layout',
       },
       {
         src: 'images/products/bezel-tennis/casting.jpg',
-        alt: 'Side casting profile of yellow gold bezel tennis links',
+        alt: 'Casting profile of twisted tubular bezel links with side-facing diamonds',
         label: 'Casting',
       },
       {
         src: 'images/products/bezel-tennis/face.jpg',
-        alt: 'Top face of round diamonds in yellow gold bezels',
+        alt: 'Face and side diamonds on twisted yellow gold bezel links',
         label: 'Face',
       },
       {
         src: 'images/products/bezel-tennis/clasp.jpg',
-        alt: 'Clasp detail of yellow gold bezel tennis bracelet',
+        alt: 'Clasp of twisted bezel bracelet with square head and side diamonds',
         label: 'Clasp',
       },
     ],
@@ -142,18 +143,28 @@ export const catalogPieces: CatalogPiece[] = [
     title: 'Heart link bracelet',
     line: 'bracelets',
     image: 'images/products/heart-link/cover.jpg',
-    alt: 'Rose gold heart-link diamond bracelet with pavé halos',
-    blurb: 'Heart links with center stones and pavé halos. More angles coming as we shoot them.',
+    alt: 'Rose gold heart-link diamond bracelet with pavé halos on ivory silk',
+    blurb: '14K rose gold heart links with center heart diamonds and pavé halos. Full, layout, face, and casting views.',
     shots: [
       {
         src: 'images/products/heart-link/cover.jpg',
-        alt: 'Full heart-link diamond bracelet on cream silk',
+        alt: 'Full rose gold heart-link diamond bracelet on cool ivory silk',
         label: 'Full',
       },
       {
         src: 'images/products/heart-link/layout.jpg',
-        alt: 'Heart-link bracelet section on cream silk',
+        alt: 'Rose gold heart-link bracelet layout on ivory fabric',
         label: 'Layout',
+      },
+      {
+        src: 'images/products/heart-link/face.jpg',
+        alt: 'Face view of rose gold heart links with pavé halos',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/heart-link/casting.jpg',
+        alt: 'Side casting of rose gold heart-link bracelet',
+        label: 'Casting',
       },
     ],
   },
