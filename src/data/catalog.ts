@@ -123,18 +123,29 @@ export const catalogPieces: CatalogPiece[] = [
     title: 'Pear tennis bracelet',
     line: 'bracelets',
     image: 'images/products/pear-tennis/cover.jpg',
-    alt: 'Yellow gold pear-cut diamond tennis bracelet with alternating pears',
-    blurb: 'Alternating pear-cut diamonds in yellow gold. More angles coming as we shoot them.',
+    alt: 'Yellow gold alternating pear-cut diamond tennis bracelet on ivory silk',
+    blurb:
+      'Alternating pear-cut diamonds in yellow gold — tip up / tip down the full length. Full, layout, face, and clasp views.',
     shots: [
       {
         src: 'images/products/pear-tennis/cover.jpg',
-        alt: 'Full pear-cut diamond tennis bracelet on cream silk',
+        alt: 'Full alternating pear tennis bracelet with clean clasps',
         label: 'Full',
       },
       {
         src: 'images/products/pear-tennis/layout.jpg',
-        alt: 'Pear tennis bracelet layout on cream silk',
+        alt: 'Layout of alternating pear tennis bracelet on ivory silk',
         label: 'Layout',
+      },
+      {
+        src: 'images/products/pear-tennis/face.jpg',
+        alt: 'Face detail of alternating pear diamonds in yellow gold',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/pear-tennis/clasp.jpg',
+        alt: 'Clasp end with consistent pear diamonds after the box clasp',
+        label: 'Clasp',
       },
     ],
   },
