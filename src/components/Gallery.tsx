@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { catalogPieces, productLines, type ProductLineId } from '../data/catalog'
+import { catalogPieces, productLines, type CatalogPiece, type ProductLineId } from '../data/catalog'
 import { asset } from '../lib/asset'
+import { ProductDetail } from './ProductDetail'
 
 type GalleryProps = {
   active: ProductLineId | 'all'
@@ -12,10 +13,12 @@ export function Gallery({ active }: GalleryProps) {
     [active],
   )
   const [index, setIndex] = useState(0)
+  const [selected, setSelected] = useState<CatalogPiece | null>(null)
   const scrollerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     setIndex(0)
+    setSelected(null)
   }, [active])
 
   useEffect(() => {
@@ -33,7 +36,7 @@ export function Gallery({ active }: GalleryProps) {
         <div>
           <h2 className="type-head m-0">Catalog</h2>
           <p className="type-body mt-4 m-0 max-w-md text-[var(--muted)]">
-            {label}. Quiet frames for case-ready work. Replace these with your own photography anytime.
+            {label}. Click a piece to open studio angles — full, casting, face, clasp.
           </p>
         </div>
         {pieces.length > 1 ? (
@@ -75,7 +78,10 @@ export function Gallery({ active }: GalleryProps) {
                 key={piece.id}
                 type="button"
                 data-slide={i}
-                onClick={() => setIndex(i)}
+                onClick={() => {
+                  setIndex(i)
+                  setSelected(piece)
+                }}
                 className={`w-[min(78vw,28rem)] shrink-0 snap-center text-left transition-opacity ${
                   i === index ? 'opacity-100' : 'opacity-55 hover:opacity-85'
                 }`}
@@ -93,7 +99,7 @@ export function Gallery({ active }: GalleryProps) {
                 <div className="mt-4 flex items-baseline justify-between gap-4">
                   <h3 className="type-lead m-0 font-medium tracking-[-0.01em]">{piece.title}</h3>
                   <span className="type-small text-[var(--muted)]">
-                    {productLines.find((line) => line.id === piece.line)?.name}
+                    {piece.shots.length > 1 ? `${piece.shots.length} angles` : productLines.find((line) => line.id === piece.line)?.name}
                   </span>
                 </div>
               </button>
@@ -103,12 +109,14 @@ export function Gallery({ active }: GalleryProps) {
           {current ? (
             <div className="shell mt-8 border-t border-[var(--line)] pt-6">
               <p className="type-small m-0 text-[var(--muted)]">
-                Showing {index + 1} of {pieces.length}: {current.title}
+                Showing {index + 1} of {pieces.length}: {current.title}. Click to open angles.
               </p>
             </div>
           ) : null}
         </>
       )}
+
+      {selected ? <ProductDetail piece={selected} onClose={() => setSelected(null)} /> : null}
     </section>
   )
 }
