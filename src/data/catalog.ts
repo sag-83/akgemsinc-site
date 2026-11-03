@@ -89,22 +89,12 @@ export const catalogPieces: CatalogPiece[] = [
     image: 'images/products/bezel-tennis/cover.jpg',
     alt: 'Yellow gold twisted bezel diamond bracelet in oval layout on cream silk',
     blurb:
-      'Yellow-gold stacked/ribbed bezel links with round diamonds. Full locked; layout, casting, face, and clasp match that mold.',
+      'Yellow-gold stacked/ribbed bezel links with round diamonds. Full locked; face and clasp from inventory photos.',
     shots: [
       {
         src: 'images/products/bezel-tennis/cover.jpg',
         alt: 'Full yellow gold twisted bezel diamond bracelet on cream silk',
         label: 'Full',
-      },
-      {
-        src: 'images/products/bezel-tennis/layout.jpg',
-        alt: 'Layout of twisted bezel bracelet matching the full mold',
-        label: 'Layout',
-      },
-      {
-        src: 'images/products/bezel-tennis/casting.jpg',
-        alt: 'Casting profile of stacked ribbed bezel links',
-        label: 'Casting',
       },
       {
         src: 'images/products/bezel-tennis/face.jpg',
@@ -113,7 +103,7 @@ export const catalogPieces: CatalogPiece[] = [
       },
       {
         src: 'images/products/bezel-tennis/clasp.jpg',
-        alt: 'Clasp detail matching the twisted bezel full mold',
+        alt: 'Clasp detail of twisted bezel bracelet',
         label: 'Clasp',
       },
     ],
