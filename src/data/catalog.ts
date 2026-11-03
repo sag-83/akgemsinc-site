@@ -80,11 +80,18 @@ export const catalogPieces: CatalogPiece[] = [
     alt: 'Three gold diamond rings on a cream stone surface',
   },
   {
-    id: 'bracelet',
-    title: 'Bracelet line',
+    id: 'bracelet-pear',
+    title: 'Pear tennis bracelet',
     line: 'bracelets',
     image: 'images/bracelet.jpg',
-    alt: 'Gold diamond tennis bracelet on cream fabric',
+    alt: 'Yellow gold pear-cut diamond tennis bracelet on cream silk',
+  },
+  {
+    id: 'bracelet-pear-detail',
+    title: 'Pear tennis — detail',
+    line: 'bracelets',
+    image: 'images/bracelet-pear-detail.jpg',
+    alt: 'Close-up of pear-cut diamonds in yellow gold tennis bracelet',
   },
   {
     id: 'earrings',
