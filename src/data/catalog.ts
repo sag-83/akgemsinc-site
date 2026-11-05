@@ -96,6 +96,11 @@ export const catalogPieces: CatalogPiece[] = [
         label: 'Overview',
       },
       {
+        src: 'images/products/bezel-tennis/face.jpg',
+        alt: 'Close view of round diamonds in twisted bezel settings',
+        label: 'Detail',
+      },
+      {
         src: 'images/products/bezel-tennis/clasp.jpg',
         alt: 'Clasp detail of twisted bezel bracelet',
         label: 'Clasp',
@@ -116,6 +121,11 @@ export const catalogPieces: CatalogPiece[] = [
         label: 'Overview',
       },
       {
+        src: 'images/products/pear-tennis/face.jpg',
+        alt: 'Close view of alternating pear diamonds in yellow gold',
+        label: 'Detail',
+      },
+      {
         src: 'images/products/pear-tennis/clasp.jpg',
         alt: 'Clasp end of pear tennis bracelet',
         label: 'Clasp',
@@ -134,6 +144,11 @@ export const catalogPieces: CatalogPiece[] = [
         src: 'images/products/heart-link/cover.jpg',
         alt: 'Rose gold heart-link diamond bracelet on cream silk',
         label: 'Overview',
+      },
+      {
+        src: 'images/products/heart-link/face.jpg',
+        alt: 'Close view of rose gold heart links on cream silk',
+        label: 'Detail',
       },
       {
         src: 'images/products/heart-link/clasp.jpg',
@@ -176,6 +191,11 @@ export const catalogPieces: CatalogPiece[] = [
         label: 'Overview',
       },
       {
+        src: 'images/products/emerald-tennis/face.jpg',
+        alt: 'Close view of emerald-cut diamonds in yellow gold',
+        label: 'Detail',
+      },
+      {
         src: 'images/products/emerald-tennis/clasp.jpg',
         alt: 'Clasp on yellow gold emerald-cut tennis bracelet',
         label: 'Clasp',
@@ -194,6 +214,11 @@ export const catalogPieces: CatalogPiece[] = [
         src: 'images/products/round-tennis/cover.jpg',
         alt: 'Yellow gold round diamond tennis bracelet on cream silk',
         label: 'Overview',
+      },
+      {
+        src: 'images/products/round-tennis/face.jpg',
+        alt: 'Close view of round brilliant diamonds in yellow gold',
+        label: 'Detail',
       },
       {
         src: 'images/products/round-tennis/clasp.jpg',

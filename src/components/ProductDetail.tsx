@@ -75,19 +75,23 @@ export function ProductDetail({ piece, onClose }: ProductDetailProps) {
                 <>
                   <button
                     type="button"
-                    className="btn btn-ghost absolute top-1/2 left-3 min-h-11 -translate-y-1/2 bg-[color-mix(in_srgb,var(--bg)_88%,transparent)] px-3 backdrop-blur-sm"
+                    className="absolute top-1/2 left-3 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[var(--line)] bg-[color-mix(in_srgb,var(--bg)_72%,transparent)] text-[var(--ink)] transition-opacity hover:opacity-100 opacity-80"
                     onClick={() => setShotIndex((value) => (value - 1 + shots.length) % shots.length)}
                     aria-label="Previous photo"
                   >
-                    Prev
+                    <span aria-hidden="true" className="text-lg leading-none">
+                      ‹
+                    </span>
                   </button>
                   <button
                     type="button"
-                    className="btn btn-ghost absolute top-1/2 right-3 min-h-11 -translate-y-1/2 bg-[color-mix(in_srgb,var(--bg)_88%,transparent)] px-3 backdrop-blur-sm"
+                    className="absolute top-1/2 right-3 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[var(--line)] bg-[color-mix(in_srgb,var(--bg)_72%,transparent)] text-[var(--ink)] transition-opacity hover:opacity-100 opacity-80"
                     onClick={() => setShotIndex((value) => (value + 1) % shots.length)}
                     aria-label="Next photo"
                   >
-                    Next
+                    <span aria-hidden="true" className="text-lg leading-none">
+                      ›
+                    </span>
                   </button>
                 </>
               ) : null}
