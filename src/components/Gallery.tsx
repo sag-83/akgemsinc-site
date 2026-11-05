@@ -108,10 +108,7 @@ export function Gallery({ active }: GalleryProps) {
 
           {current ? (
             <div className="shell mt-8 border-t border-[var(--line)] pt-6">
-              <p className="type-small m-0 text-[var(--muted)]">
-                {current.title}
-                {current.blurb ? ` — ${current.blurb}` : ''}
-              </p>
+              <p className="type-small m-0 text-[var(--muted)]">{current.blurb ?? current.title}</p>
             </div>
           ) : null}
         </>

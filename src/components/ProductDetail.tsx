@@ -77,7 +77,7 @@ export function ProductDetail({ piece, onClose }: ProductDetailProps) {
                     type="button"
                     className="btn btn-ghost absolute top-1/2 left-3 min-h-11 -translate-y-1/2 bg-[color-mix(in_srgb,var(--bg)_88%,transparent)] px-3 backdrop-blur-sm"
                     onClick={() => setShotIndex((value) => (value - 1 + shots.length) % shots.length)}
-                    aria-label="Previous angle"
+                    aria-label="Previous photo"
                   >
                     Prev
                   </button>
@@ -85,7 +85,7 @@ export function ProductDetail({ piece, onClose }: ProductDetailProps) {
                     type="button"
                     className="btn btn-ghost absolute top-1/2 right-3 min-h-11 -translate-y-1/2 bg-[color-mix(in_srgb,var(--bg)_88%,transparent)] px-3 backdrop-blur-sm"
                     onClick={() => setShotIndex((value) => (value + 1) % shots.length)}
-                    aria-label="Next angle"
+                    aria-label="Next photo"
                   >
                     Next
                   </button>
@@ -103,7 +103,7 @@ export function ProductDetail({ piece, onClose }: ProductDetailProps) {
                     className={`w-24 shrink-0 text-left transition-opacity ${
                       index === shotIndex ? 'opacity-100' : 'opacity-55 hover:opacity-85'
                     }`}
-                    aria-label={`Show ${item.label} angle`}
+                    aria-label={`Show ${item.label}`}
                     aria-current={index === shotIndex}
                   >
                     <div className="overflow-hidden border border-[var(--line)]">
@@ -124,10 +124,7 @@ export function ProductDetail({ piece, onClose }: ProductDetailProps) {
 
           <aside className="flex flex-col gap-6 border-t border-[var(--line)] px-[var(--page)] py-6 sm:px-8 lg:border-t-0 lg:border-l">
             <div>
-              {shots.length > 1 ? (
-                <p className="type-small m-0 text-[var(--muted)]">{shot.label}</p>
-              ) : null}
-              {piece.blurb ? <p className="type-body mt-4 m-0 text-[var(--muted)]">{piece.blurb}</p> : null}
+              {piece.blurb ? <p className="type-body m-0 text-[var(--muted)]">{piece.blurb}</p> : null}
             </div>
 
             <div className="mt-auto flex flex-col gap-3">

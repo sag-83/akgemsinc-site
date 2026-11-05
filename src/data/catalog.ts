@@ -29,7 +29,7 @@ export type CatalogPiece = {
   image: string
   alt: string
   blurb?: string
-  /** Multi-angle studio shots opened on click */
+  /** Studio shots opened on click */
   shots: CatalogShot[]
 }
 
@@ -87,18 +87,18 @@ export const catalogPieces: CatalogPiece[] = [
     title: 'Twisted bezel bracelet',
     line: 'bracelets',
     image: 'images/products/bezel-tennis/cover.jpg',
-    alt: 'Yellow gold twisted bezel diamond bracelet in oval layout on cream silk',
-    blurb: 'Yellow gold twisted bezel links with round diamonds.',
+    alt: 'Yellow gold twisted bezel diamond bracelet on cream silk',
+    blurb: 'Yellow gold twisted bezel links set with round diamonds.',
     shots: [
       {
         src: 'images/products/bezel-tennis/cover.jpg',
-        alt: 'Full yellow gold twisted bezel diamond bracelet on cream silk',
-        label: 'Full',
+        alt: 'Yellow gold twisted bezel diamond bracelet on cream silk',
+        label: 'Overview',
       },
       {
         src: 'images/products/bezel-tennis/face.jpg',
-        alt: 'Face view of round diamonds in twisted bezel settings',
-        label: 'Face',
+        alt: 'Close view of round diamonds in twisted bezel settings',
+        label: 'Detail',
       },
       {
         src: 'images/products/bezel-tennis/clasp.jpg',
@@ -113,21 +113,21 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/pear-tennis/cover.jpg',
     alt: 'Yellow gold alternating pear-cut diamond tennis bracelet on ivory silk',
-    blurb: 'Alternating pear-cut diamonds in yellow gold.',
+    blurb: 'Alternating pear-cut diamonds set in yellow gold.',
     shots: [
       {
         src: 'images/products/pear-tennis/cover.jpg',
-        alt: 'Full alternating pear tennis bracelet with clean clasps',
-        label: 'Full',
+        alt: 'Yellow gold alternating pear tennis bracelet on ivory silk',
+        label: 'Overview',
       },
       {
         src: 'images/products/pear-tennis/face.jpg',
-        alt: 'Face detail of alternating pear diamonds in yellow gold',
-        label: 'Face',
+        alt: 'Close view of alternating pear diamonds in yellow gold',
+        label: 'Detail',
       },
       {
         src: 'images/products/pear-tennis/clasp.jpg',
-        alt: 'Clasp end with consistent pear diamonds after the box clasp',
+        alt: 'Clasp end of pear tennis bracelet',
         label: 'Clasp',
       },
     ],
@@ -142,17 +142,17 @@ export const catalogPieces: CatalogPiece[] = [
     shots: [
       {
         src: 'images/products/heart-link/cover.jpg',
-        alt: 'Full rose gold heart-link diamond bracelet on cream silk',
-        label: 'Full',
+        alt: 'Rose gold heart-link diamond bracelet on cream silk',
+        label: 'Overview',
       },
       {
         src: 'images/products/heart-link/face.jpg',
-        alt: 'Zoomed face of tip-to-cleft rose gold heart links on cream silk',
-        label: 'Face',
+        alt: 'Close view of rose gold heart links on cream silk',
+        label: 'Detail',
       },
       {
         src: 'images/products/heart-link/clasp.jpg',
-        alt: 'Clasp end with sharp heart-shaped links on rose gold bracelet',
+        alt: 'Clasp end of rose gold heart-link bracelet',
         label: 'Clasp',
       },
     ],
@@ -161,23 +161,18 @@ export const catalogPieces: CatalogPiece[] = [
     id: 'bracelet-multi-shape',
     title: 'Multi-shape tennis bracelet',
     line: 'bracelets',
-    image: 'images/products/multi-shape/cover.jpg',
-    alt: '14K white gold multi-shape diamond tennis bracelet — heart, emerald, oval, marquise, pear — on cream silk',
-    blurb: '14K white gold mosaic tennis — heart, emerald, oval, marquise, and pear.',
+    image: 'images/products/multi-shape/studio-full.jpg',
+    alt: '14K white gold multi-shape diamond tennis bracelet on cream silk',
+    blurb: '14K white gold tennis bracelet with mixed fancy-cut diamonds in a repeating heart, emerald, oval, marquise, and pear pattern.',
     shots: [
       {
-        src: 'images/products/multi-shape/cover.jpg',
-        alt: 'Full multi-shape diamond tennis bracelet — Heart Emerald Oval Marquise Pear repeat',
-        label: 'Full',
+        src: 'images/products/multi-shape/studio-full.jpg',
+        alt: '14K white gold multi-shape diamond tennis bracelet on cream silk',
+        label: 'Overview',
       },
       {
-        src: 'images/products/multi-shape/face.jpg',
-        alt: 'Face close-up of Heart Emerald Oval Marquise Pear diamond sequence',
-        label: 'Face',
-      },
-      {
-        src: 'images/products/multi-shape/clasp.jpg',
-        alt: 'Diamond-set box clasp on multi-shape white gold tennis bracelet',
+        src: 'images/products/multi-shape/studio-clasp.jpg',
+        alt: 'Diamond-set clasp on multi-shape white gold tennis bracelet',
         label: 'Clasp',
       },
     ],
@@ -188,21 +183,21 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/emerald-tennis/cover.jpg',
     alt: 'Yellow gold emerald-cut diamond tennis bracelet on cream silk',
-    blurb: 'Yellow gold tennis with uniform emerald-cut diamonds in four-prong settings.',
+    blurb: 'Yellow gold tennis bracelet with matched emerald-cut diamonds.',
     shots: [
       {
         src: 'images/products/emerald-tennis/cover.jpg',
-        alt: 'Full yellow gold emerald-cut diamond tennis bracelet on cream silk',
-        label: 'Full',
+        alt: 'Yellow gold emerald-cut diamond tennis bracelet on cream silk',
+        label: 'Overview',
       },
       {
         src: 'images/products/emerald-tennis/face.jpg',
-        alt: 'Face close-up of emerald-cut diamonds in yellow gold',
-        label: 'Face',
+        alt: 'Close view of emerald-cut diamonds in yellow gold',
+        label: 'Detail',
       },
       {
         src: 'images/products/emerald-tennis/clasp.jpg',
-        alt: 'Box clasp on yellow gold emerald-cut tennis bracelet',
+        alt: 'Clasp on yellow gold emerald-cut tennis bracelet',
         label: 'Clasp',
       },
     ],
@@ -213,21 +208,21 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/round-tennis/cover.jpg',
     alt: 'Yellow gold round brilliant diamond tennis bracelet on cream silk',
-    blurb: '14K yellow gold tennis with large round brilliant diamonds in four-prong settings.',
+    blurb: '14K yellow gold tennis bracelet with round brilliant diamonds.',
     shots: [
       {
         src: 'images/products/round-tennis/cover.jpg',
-        alt: 'Full yellow gold round diamond tennis bracelet on cream silk',
-        label: 'Full',
+        alt: 'Yellow gold round diamond tennis bracelet on cream silk',
+        label: 'Overview',
       },
       {
         src: 'images/products/round-tennis/face.jpg',
-        alt: 'Face close-up of round brilliant diamonds in yellow gold',
-        label: 'Face',
+        alt: 'Close view of round brilliant diamonds in yellow gold',
+        label: 'Detail',
       },
       {
         src: 'images/products/round-tennis/clasp.jpg',
-        alt: 'Box clasp on yellow gold round diamond tennis bracelet',
+        alt: 'Clasp on yellow gold round diamond tennis bracelet',
         label: 'Clasp',
       },
     ],
@@ -238,17 +233,17 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-ring/cover.jpg',
     alt: 'Matte black titanium ring with waffle texture and yellow-gold bezel diamond on cream silk',
-    blurb: 'Exclusive AK Gems piece — matte black titanium waffle band, 14K yellow-gold bezel, ~3ct square diamond.',
+    blurb: 'Exclusive AK Gems design. Matte black titanium waffle band with a 14K yellow-gold bezel and about 3 ct square diamond.',
     shots: [
       {
         src: 'images/products/titanium-ring/cover.jpg',
         alt: 'Exclusive black titanium diamond ring on cream silk',
-        label: 'Cover',
+        label: 'Overview',
       },
       {
         src: 'images/products/titanium-ring/face.jpg',
         alt: 'Face view of square diamond in yellow-gold bezel on titanium band',
-        label: 'Face',
+        label: 'Detail',
       },
       {
         src: 'images/products/titanium-ring/profile.jpg',
@@ -257,8 +252,8 @@ export const catalogPieces: CatalogPiece[] = [
       },
       {
         src: 'images/products/titanium-ring/angle.jpg',
-        alt: 'Three-quarter angle of exclusive titanium diamond ring',
-        label: 'Angle',
+        alt: 'Three-quarter view of exclusive titanium diamond ring',
+        label: 'Side',
       },
     ],
   },
@@ -268,17 +263,17 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-smooth/cover.jpg',
     alt: 'Smooth matte black titanium ring with yellow-gold emerald-cut diamond bezel on cream silk',
-    blurb: 'Smooth matte black titanium band, yellow-gold bezel, ~3ct emerald-cut diamond.',
+    blurb: 'Smooth matte black titanium band with a yellow-gold bezel and about 3 ct emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-smooth/cover.jpg',
         alt: 'Smooth black titanium emerald-cut diamond ring on cream silk',
-        label: 'Cover',
+        label: 'Overview',
       },
       {
         src: 'images/products/titanium-smooth/face.jpg',
         alt: 'Face view of emerald-cut diamond in yellow-gold bezel',
-        label: 'Face',
+        label: 'Detail',
       },
       {
         src: 'images/products/titanium-smooth/profile.jpg',
@@ -287,8 +282,8 @@ export const catalogPieces: CatalogPiece[] = [
       },
       {
         src: 'images/products/titanium-smooth/angle.jpg',
-        alt: 'Three-quarter angle of smooth titanium emerald ring',
-        label: 'Angle',
+        alt: 'Three-quarter view of smooth titanium emerald ring',
+        label: 'Side',
       },
     ],
   },
@@ -298,17 +293,17 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-ribbed/cover.jpg',
     alt: 'Matte black ribbed titanium ring with yellow-gold emerald-cut diamond bezel on cream silk',
-    blurb: 'Matte black vertical-rib titanium band, yellow-gold bezel, ~2ct emerald-cut diamond.',
+    blurb: 'Matte black ribbed titanium band with a yellow-gold bezel and about 2 ct emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-ribbed/cover.jpg',
         alt: 'Ribbed black titanium emerald-cut diamond ring on cream silk',
-        label: 'Cover',
+        label: 'Overview',
       },
       {
         src: 'images/products/titanium-ribbed/face.jpg',
         alt: 'Face view of emerald-cut diamond in yellow-gold bezel on ribbed titanium',
-        label: 'Face',
+        label: 'Detail',
       },
       {
         src: 'images/products/titanium-ribbed/profile.jpg',
@@ -317,8 +312,8 @@ export const catalogPieces: CatalogPiece[] = [
       },
       {
         src: 'images/products/titanium-ribbed/angle.jpg',
-        alt: 'Three-quarter angle of ribbed titanium emerald ring',
-        label: 'Angle',
+        alt: 'Three-quarter view of ribbed titanium emerald ring',
+        label: 'Side',
       },
     ],
   },
@@ -328,17 +323,17 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-eastwest/cover.jpg',
     alt: 'Matte black titanium ring with yellow-gold east-west emerald-cut diamond on cream silk',
-    blurb: 'Matte black titanium band, yellow-gold bar setting, ~2ct east-west emerald-cut diamond.',
+    blurb: 'Matte black titanium band with a yellow-gold bar setting and about 2 ct east-west emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-eastwest/cover.jpg',
         alt: 'East-west black titanium emerald-cut diamond ring on cream silk',
-        label: 'Cover',
+        label: 'Overview',
       },
       {
         src: 'images/products/titanium-eastwest/face.jpg',
         alt: 'Face view of emerald-cut diamond in yellow-gold setting on titanium',
-        label: 'Face',
+        label: 'Detail',
       },
       {
         src: 'images/products/titanium-eastwest/profile.jpg',
@@ -347,8 +342,8 @@ export const catalogPieces: CatalogPiece[] = [
       },
       {
         src: 'images/products/titanium-eastwest/angle.jpg',
-        alt: 'Three-quarter angle of east-west titanium emerald ring',
-        label: 'Angle',
+        alt: 'Three-quarter view of east-west titanium emerald ring',
+        label: 'Side',
       },
     ],
   },
@@ -358,17 +353,17 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-groove/cover.jpg',
     alt: 'Matte black shoulder-groove titanium ring with yellow-gold emerald-cut diamond basket on cream silk',
-    blurb: 'Matte black shoulder-groove titanium band, yellow-gold basket, ~3.5ct emerald-cut diamond.',
+    blurb: 'Matte black grooved titanium band with a yellow-gold basket and about 3.5 ct emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-groove/cover.jpg',
         alt: 'Grooved black titanium emerald-cut diamond ring on cream silk',
-        label: 'Cover',
+        label: 'Overview',
       },
       {
         src: 'images/products/titanium-groove/face.jpg',
         alt: 'Face view of emerald-cut diamond in yellow-gold basket on grooved titanium',
-        label: 'Face',
+        label: 'Detail',
       },
       {
         src: 'images/products/titanium-groove/profile.jpg',
@@ -377,8 +372,8 @@ export const catalogPieces: CatalogPiece[] = [
       },
       {
         src: 'images/products/titanium-groove/angle.jpg',
-        alt: 'Three-quarter angle of grooved titanium emerald ring',
-        label: 'Angle',
+        alt: 'Three-quarter view of grooved titanium emerald ring',
+        label: 'Side',
       },
     ],
   },
@@ -393,7 +388,7 @@ export const catalogPieces: CatalogPiece[] = [
       {
         src: 'images/earrings.jpg',
         alt: 'Diamond stud earrings on ivory velvet',
-        label: 'Cover',
+        label: 'Overview',
       },
     ],
   },
@@ -408,7 +403,7 @@ export const catalogPieces: CatalogPiece[] = [
       {
         src: 'images/pendant.jpg',
         alt: 'Diamond pendant necklace on beige linen',
-        label: 'Cover',
+        label: 'Overview',
       },
     ],
   },
@@ -423,7 +418,7 @@ export const catalogPieces: CatalogPiece[] = [
       {
         src: 'images/necklace.jpg',
         alt: 'Gold chain necklace with diamond accents',
-        label: 'Cover',
+        label: 'Overview',
       },
     ],
   },
@@ -438,7 +433,7 @@ export const catalogPieces: CatalogPiece[] = [
       {
         src: 'images/diamond.jpg',
         alt: 'Brilliant cut loose diamond on cream silk',
-        label: 'Cover',
+        label: 'Overview',
       },
     ],
   },
