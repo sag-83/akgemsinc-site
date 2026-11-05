@@ -183,6 +183,31 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'bracelet-emerald-tennis',
+    title: 'Emerald-cut tennis bracelet',
+    line: 'bracelets',
+    image: 'images/products/emerald-tennis/cover.jpg',
+    alt: 'Yellow gold emerald-cut diamond tennis bracelet on cream silk',
+    blurb: 'Yellow gold tennis with uniform emerald-cut diamonds in four-prong settings.',
+    shots: [
+      {
+        src: 'images/products/emerald-tennis/cover.jpg',
+        alt: 'Full yellow gold emerald-cut diamond tennis bracelet on cream silk',
+        label: 'Full',
+      },
+      {
+        src: 'images/products/emerald-tennis/face.jpg',
+        alt: 'Face close-up of emerald-cut diamonds in yellow gold',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/emerald-tennis/clasp.jpg',
+        alt: 'Box clasp on yellow gold emerald-cut tennis bracelet',
+        label: 'Clasp',
+      },
+    ],
+  },
+  {
     id: 'ring-titanium-exclusive',
     title: 'Exclusive waffle titanium',
     line: 'rings',
