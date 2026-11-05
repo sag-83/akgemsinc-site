@@ -115,17 +115,12 @@ export const catalogPieces: CatalogPiece[] = [
     image: 'images/products/pear-tennis/cover.jpg',
     alt: 'Yellow gold alternating pear-cut diamond tennis bracelet on ivory silk',
     blurb:
-      'Alternating pear-cut diamonds in yellow gold — tip up / tip down the full length. Full, layout, face, and clasp views.',
+      'Alternating pear-cut diamonds in yellow gold — tip up / tip down the full length. Full, face, and clasp views.',
     shots: [
       {
         src: 'images/products/pear-tennis/cover.jpg',
         alt: 'Full alternating pear tennis bracelet with clean clasps',
         label: 'Full',
-      },
-      {
-        src: 'images/products/pear-tennis/layout.jpg',
-        alt: 'Layout of alternating pear tennis bracelet on ivory silk',
-        label: 'Layout',
       },
       {
         src: 'images/products/pear-tennis/face.jpg',
@@ -145,7 +140,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/heart-link/cover.jpg',
     alt: 'Rose gold heart-link diamond bracelet with pavé halos on ivory silk',
-    blurb: '14K rose gold heart links with center heart diamonds and pavé halos. Full, layout, face, and clasp views.',
+    blurb: '14K rose gold heart links with center heart diamonds and pavé halos. Full, face, and clasp views.',
     shots: [
       {
         src: 'images/products/heart-link/cover.jpg',
@@ -153,18 +148,13 @@ export const catalogPieces: CatalogPiece[] = [
         label: 'Full',
       },
       {
-        src: 'images/products/heart-link/layout.jpg',
-        alt: 'Rose gold heart-link bracelet layout on cream silk',
-        label: 'Layout',
-      },
-      {
         src: 'images/products/heart-link/face.jpg',
-        alt: 'Close-up of rose gold heart links with pavé halos',
+        alt: 'Zoomed face of tip-to-cleft rose gold heart links on cream silk',
         label: 'Face',
       },
       {
         src: 'images/products/heart-link/clasp.jpg',
-        alt: 'Rose gold tongue-and-groove clasp on heart-link bracelet',
+        alt: 'Clasp end with sharp heart-shaped links on rose gold bracelet',
         label: 'Clasp',
       },
     ],
@@ -176,17 +166,12 @@ export const catalogPieces: CatalogPiece[] = [
     image: 'images/products/multi-shape/cover.jpg',
     alt: '14K white gold multi-shape diamond tennis bracelet — heart, emerald, oval, marquise, pear — on cream silk',
     blurb:
-      '14K white gold mosaic tennis — repeating Heart → Emerald → Oval → Marquise → Pear. Full, layout, face, and clasp views.',
+      '14K white gold mosaic tennis — repeating Heart → Emerald → Oval → Marquise → Pear. Full, face, and clasp views.',
     shots: [
       {
-        src: 'images/products/multi-shape/full.jpg',
+        src: 'images/products/multi-shape/cover.jpg',
         alt: 'Full multi-shape diamond tennis bracelet — Heart Emerald Oval Marquise Pear repeat',
         label: 'Full',
-      },
-      {
-        src: 'images/products/multi-shape/layout.jpg',
-        alt: 'Layout of multi-shape tennis bracelet showing heart emerald oval marquise pear sequence',
-        label: 'Layout',
       },
       {
         src: 'images/products/multi-shape/face.jpg',
