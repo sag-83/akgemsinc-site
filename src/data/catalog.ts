@@ -232,6 +232,37 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'ring-titanium-ribbed',
+    title: 'Ribbed titanium emerald',
+    line: 'rings',
+    image: 'images/products/titanium-ribbed/cover.jpg',
+    alt: 'Matte black ribbed titanium ring with yellow-gold emerald-cut diamond bezel on cream silk',
+    blurb:
+      'Titanium fashion ring — matte black vertical-rib band, yellow-gold bezel, ~2ct emerald-cut diamond. Cover, face, profile, and angle views.',
+    shots: [
+      {
+        src: 'images/products/titanium-ribbed/cover.jpg',
+        alt: 'Ribbed black titanium emerald-cut diamond ring on cream silk',
+        label: 'Cover',
+      },
+      {
+        src: 'images/products/titanium-ribbed/face.jpg',
+        alt: 'Face view of emerald-cut diamond in yellow-gold bezel on ribbed titanium',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/titanium-ribbed/profile.jpg',
+        alt: 'Profile of vertical-rib black titanium ring with gold bezel',
+        label: 'Profile',
+      },
+      {
+        src: 'images/products/titanium-ribbed/angle.jpg',
+        alt: 'Three-quarter angle of ribbed titanium emerald ring',
+        label: 'Angle',
+      },
+    ],
+  },
+  {
     id: 'earrings',
     title: 'Earring pairs',
     line: 'earrings',
