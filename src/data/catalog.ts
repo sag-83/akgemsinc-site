@@ -294,6 +294,37 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'ring-titanium-groove',
+    title: 'Grooved titanium emerald',
+    line: 'rings',
+    image: 'images/products/titanium-groove/cover.jpg',
+    alt: 'Matte black shoulder-groove titanium ring with yellow-gold emerald-cut diamond basket on cream silk',
+    blurb:
+      'Titanium fashion ring — matte black shoulder-groove band, yellow-gold basket, ~3.5ct emerald-cut diamond. Cover, face, profile, and angle views.',
+    shots: [
+      {
+        src: 'images/products/titanium-groove/cover.jpg',
+        alt: 'Grooved black titanium emerald-cut diamond ring on cream silk',
+        label: 'Cover',
+      },
+      {
+        src: 'images/products/titanium-groove/face.jpg',
+        alt: 'Face view of emerald-cut diamond in yellow-gold basket on grooved titanium',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/titanium-groove/profile.jpg',
+        alt: 'Profile of shoulder-groove black titanium ring with gold emerald basket',
+        label: 'Profile',
+      },
+      {
+        src: 'images/products/titanium-groove/angle.jpg',
+        alt: 'Three-quarter angle of grooved titanium emerald ring',
+        label: 'Angle',
+      },
+    ],
+  },
+  {
     id: 'earrings',
     title: 'Earring pairs',
     line: 'earrings',
