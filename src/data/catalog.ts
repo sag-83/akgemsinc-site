@@ -170,6 +170,37 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'bracelet-multi-shape',
+    title: 'Multi-shape tennis bracelet',
+    line: 'bracelets',
+    image: 'images/products/multi-shape/cover.jpg',
+    alt: '14K white gold multi-shape diamond tennis bracelet — heart, emerald, oval, marquise, pear — on cream silk',
+    blurb:
+      '14K white gold mosaic tennis — repeating Heart → Emerald → Oval → Marquise → Pear. Full, layout, face, and clasp views.',
+    shots: [
+      {
+        src: 'images/products/multi-shape/full.jpg',
+        alt: 'Full multi-shape diamond tennis bracelet — Heart Emerald Oval Marquise Pear repeat',
+        label: 'Full',
+      },
+      {
+        src: 'images/products/multi-shape/layout.jpg',
+        alt: 'Layout of multi-shape tennis bracelet showing heart emerald oval marquise pear sequence',
+        label: 'Layout',
+      },
+      {
+        src: 'images/products/multi-shape/face.jpg',
+        alt: 'Face close-up of Heart Emerald Oval Marquise Pear diamond sequence',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/multi-shape/clasp.jpg',
+        alt: 'Diamond-set box clasp on multi-shape white gold tennis bracelet',
+        label: 'Clasp',
+      },
+    ],
+  },
+  {
     id: 'ring-titanium-exclusive',
     title: 'Exclusive waffle titanium',
     line: 'rings',
