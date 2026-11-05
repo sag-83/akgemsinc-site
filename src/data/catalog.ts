@@ -208,6 +208,31 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'bracelet-round-tennis',
+    title: 'Round tennis bracelet',
+    line: 'bracelets',
+    image: 'images/products/round-tennis/cover.jpg',
+    alt: 'Yellow gold round brilliant diamond tennis bracelet on cream silk',
+    blurb: '14K yellow gold tennis with large round brilliant diamonds in four-prong settings.',
+    shots: [
+      {
+        src: 'images/products/round-tennis/cover.jpg',
+        alt: 'Full yellow gold round diamond tennis bracelet on cream silk',
+        label: 'Full',
+      },
+      {
+        src: 'images/products/round-tennis/face.jpg',
+        alt: 'Face close-up of round brilliant diamonds in yellow gold',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/round-tennis/clasp.jpg',
+        alt: 'Box clasp on yellow gold round diamond tennis bracelet',
+        label: 'Clasp',
+      },
+    ],
+  },
+  {
     id: 'ring-titanium-exclusive',
     title: 'Exclusive waffle titanium',
     line: 'rings',
