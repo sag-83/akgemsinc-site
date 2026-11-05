@@ -170,17 +170,33 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
-    id: 'rings',
-    title: 'Ring collection',
+    id: 'ring-titanium-exclusive',
+    title: 'Exclusive titanium ring',
     line: 'rings',
-    image: 'images/rings.jpg',
-    alt: 'Three gold diamond rings on a cream stone surface',
-    blurb: 'Placeholder cover — replace with your tray photography next.',
+    image: 'images/products/titanium-ring/cover.jpg',
+    alt: 'Matte black titanium ring with waffle texture and yellow-gold bezel diamond on cream silk',
+    blurb:
+      'Exclusive AK Gems piece — matte black titanium waffle band, 14K yellow-gold bezel, ~3ct square diamond. Cover, face, profile, and angle views.',
     shots: [
       {
-        src: 'images/rings.jpg',
-        alt: 'Three gold diamond rings on a cream stone surface',
+        src: 'images/products/titanium-ring/cover.jpg',
+        alt: 'Exclusive black titanium diamond ring on cream silk',
         label: 'Cover',
+      },
+      {
+        src: 'images/products/titanium-ring/face.jpg',
+        alt: 'Face view of square diamond in yellow-gold bezel on titanium band',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/titanium-ring/profile.jpg',
+        alt: 'Profile of waffle-textured black titanium ring',
+        label: 'Profile',
+      },
+      {
+        src: 'images/products/titanium-ring/angle.jpg',
+        alt: 'Three-quarter angle of exclusive titanium diamond ring',
+        label: 'Angle',
       },
     ],
   },
