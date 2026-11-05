@@ -171,7 +171,7 @@ export const catalogPieces: CatalogPiece[] = [
   },
   {
     id: 'ring-titanium-exclusive',
-    title: 'Exclusive titanium ring',
+    title: 'Exclusive waffle titanium',
     line: 'rings',
     image: 'images/products/titanium-ring/cover.jpg',
     alt: 'Matte black titanium ring with waffle texture and yellow-gold bezel diamond on cream silk',
@@ -196,6 +196,37 @@ export const catalogPieces: CatalogPiece[] = [
       {
         src: 'images/products/titanium-ring/angle.jpg',
         alt: 'Three-quarter angle of exclusive titanium diamond ring',
+        label: 'Angle',
+      },
+    ],
+  },
+  {
+    id: 'ring-titanium-smooth',
+    title: 'Smooth titanium emerald',
+    line: 'rings',
+    image: 'images/products/titanium-smooth/cover.jpg',
+    alt: 'Smooth matte black titanium ring with yellow-gold emerald-cut diamond bezel on cream silk',
+    blurb:
+      'Titanium fashion ring — smooth matte black band, yellow-gold bezel, ~3ct emerald-cut diamond. Cover, face, profile, and angle views.',
+    shots: [
+      {
+        src: 'images/products/titanium-smooth/cover.jpg',
+        alt: 'Smooth black titanium emerald-cut diamond ring on cream silk',
+        label: 'Cover',
+      },
+      {
+        src: 'images/products/titanium-smooth/face.jpg',
+        alt: 'Face view of emerald-cut diamond in yellow-gold bezel',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/titanium-smooth/profile.jpg',
+        alt: 'Profile of smooth black titanium ring with gold bezel',
+        label: 'Profile',
+      },
+      {
+        src: 'images/products/titanium-smooth/angle.jpg',
+        alt: 'Three-quarter angle of smooth titanium emerald ring',
         label: 'Angle',
       },
     ],
