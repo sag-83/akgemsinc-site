@@ -7,8 +7,7 @@ export function Contact() {
         <div className="lg:col-span-5">
           <h2 className="type-head m-0">Contact</h2>
           <p className="type-body mt-5 m-0 max-w-md text-[var(--muted)]">
-            Trade inquiries for {contact.company}. Ask for {contact.person}, or write the trade desk
-            directly.
+            Trade inquiries for {contact.company}. Ask for {contact.person}.
           </p>
         </div>
 
@@ -53,7 +52,7 @@ export function Contact() {
           </a>
 
           <a className="btn mt-2 w-fit" href={`mailto:${contact.email}`}>
-            Write to the trade desk
+            Email us
           </a>
         </div>
       </div>

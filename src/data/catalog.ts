@@ -37,32 +37,32 @@ export const productLines: ProductLine[] = [
   {
     id: 'bracelets',
     name: 'Bracelets',
-    blurb: 'Tennis and fashion bracelets for everyday case rotation.',
+    blurb: 'Diamond tennis and fashion bracelets.',
   },
   {
     id: 'rings',
     name: 'Rings',
-    blurb: 'Engagement and fashion silhouettes ready for the tray.',
+    blurb: 'Engagement and fashion rings.',
   },
   {
     id: 'earrings',
     name: 'Earrings',
-    blurb: 'Studs and drops that photograph clean on the floor.',
+    blurb: 'Studs and drops for the case.',
   },
   {
     id: 'pendants',
     name: 'Pendants',
-    blurb: 'Center-stone pendants with clear retail storytelling.',
+    blurb: 'Center-stone pendants and solitaires.',
   },
   {
     id: 'necklaces',
     name: 'Necklaces',
-    blurb: 'Chains and necks built for gifting and bridal add-ons.',
+    blurb: 'Chains and diamond necks.',
   },
   {
     id: 'custom',
     name: 'Custom shop',
-    blurb: 'Pieces built from scratch around your client brief.',
+    blurb: 'Made-to-order pieces around your brief.',
   },
   {
     id: 'loose-diamonds',
@@ -72,12 +72,12 @@ export const productLines: ProductLine[] = [
   {
     id: 'side-stones',
     name: 'Side stones',
-    blurb: 'Matched pairs selected for balance and consistency.',
+    blurb: 'Matched pairs for balance and consistency.',
   },
   {
     id: 'fancy-layouts',
     name: 'Fancy layouts',
-    blurb: 'Layout ideas for fancy shapes beyond the ordinary.',
+    blurb: 'Fancy-shape layouts and special orders.',
   },
 ]
 
@@ -88,8 +88,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/bezel-tennis/cover.jpg',
     alt: 'Yellow gold twisted bezel diamond bracelet in oval layout on cream silk',
-    blurb:
-      'Yellow-gold stacked/ribbed bezel links with round diamonds. Full locked; face and clasp from inventory photos.',
+    blurb: 'Yellow gold twisted bezel links with round diamonds.',
     shots: [
       {
         src: 'images/products/bezel-tennis/cover.jpg',
@@ -114,8 +113,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/pear-tennis/cover.jpg',
     alt: 'Yellow gold alternating pear-cut diamond tennis bracelet on ivory silk',
-    blurb:
-      'Alternating pear-cut diamonds in yellow gold — tip up / tip down the full length. Full, face, and clasp views.',
+    blurb: 'Alternating pear-cut diamonds in yellow gold.',
     shots: [
       {
         src: 'images/products/pear-tennis/cover.jpg',
@@ -140,7 +138,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/heart-link/cover.jpg',
     alt: 'Rose gold heart-link diamond bracelet with pavé halos on ivory silk',
-    blurb: '14K rose gold heart links with center heart diamonds and pavé halos. Full, face, and clasp views.',
+    blurb: '14K rose gold heart links with center heart diamonds and pavé halos.',
     shots: [
       {
         src: 'images/products/heart-link/cover.jpg',
@@ -165,8 +163,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'bracelets',
     image: 'images/products/multi-shape/cover.jpg',
     alt: '14K white gold multi-shape diamond tennis bracelet — heart, emerald, oval, marquise, pear — on cream silk',
-    blurb:
-      '14K white gold mosaic tennis — repeating Heart → Emerald → Oval → Marquise → Pear. Full, face, and clasp views.',
+    blurb: '14K white gold mosaic tennis — heart, emerald, oval, marquise, and pear.',
     shots: [
       {
         src: 'images/products/multi-shape/cover.jpg',
@@ -191,8 +188,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-ring/cover.jpg',
     alt: 'Matte black titanium ring with waffle texture and yellow-gold bezel diamond on cream silk',
-    blurb:
-      'Exclusive AK Gems piece — matte black titanium waffle band, 14K yellow-gold bezel, ~3ct square diamond. Cover, face, profile, and angle views.',
+    blurb: 'Exclusive AK Gems piece — matte black titanium waffle band, 14K yellow-gold bezel, ~3ct square diamond.',
     shots: [
       {
         src: 'images/products/titanium-ring/cover.jpg',
@@ -222,8 +218,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-smooth/cover.jpg',
     alt: 'Smooth matte black titanium ring with yellow-gold emerald-cut diamond bezel on cream silk',
-    blurb:
-      'Titanium fashion ring — smooth matte black band, yellow-gold bezel, ~3ct emerald-cut diamond. Cover, face, profile, and angle views.',
+    blurb: 'Smooth matte black titanium band, yellow-gold bezel, ~3ct emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-smooth/cover.jpg',
@@ -253,8 +248,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-ribbed/cover.jpg',
     alt: 'Matte black ribbed titanium ring with yellow-gold emerald-cut diamond bezel on cream silk',
-    blurb:
-      'Titanium fashion ring — matte black vertical-rib band, yellow-gold bezel, ~2ct emerald-cut diamond. Cover, face, profile, and angle views.',
+    blurb: 'Matte black vertical-rib titanium band, yellow-gold bezel, ~2ct emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-ribbed/cover.jpg',
@@ -284,8 +278,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-eastwest/cover.jpg',
     alt: 'Matte black titanium ring with yellow-gold east-west emerald-cut diamond on cream silk',
-    blurb:
-      'Titanium fashion ring — matte black band, yellow-gold bar setting, ~2ct east-west emerald-cut diamond. Cover, face, profile, and angle views.',
+    blurb: 'Matte black titanium band, yellow-gold bar setting, ~2ct east-west emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-eastwest/cover.jpg',
@@ -315,8 +308,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'rings',
     image: 'images/products/titanium-groove/cover.jpg',
     alt: 'Matte black shoulder-groove titanium ring with yellow-gold emerald-cut diamond basket on cream silk',
-    blurb:
-      'Titanium fashion ring — matte black shoulder-groove band, yellow-gold basket, ~3.5ct emerald-cut diamond. Cover, face, profile, and angle views.',
+    blurb: 'Matte black shoulder-groove titanium band, yellow-gold basket, ~3.5ct emerald-cut diamond.',
     shots: [
       {
         src: 'images/products/titanium-groove/cover.jpg',
@@ -346,7 +338,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'earrings',
     image: 'images/earrings.jpg',
     alt: 'Diamond stud earrings on ivory velvet',
-    blurb: 'Placeholder cover — replace with your tray photography next.',
+    blurb: 'Diamond stud and fashion earring pairs.',
     shots: [
       {
         src: 'images/earrings.jpg',
@@ -361,7 +353,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'pendants',
     image: 'images/pendant.jpg',
     alt: 'Diamond pendant necklace on beige linen',
-    blurb: 'Placeholder cover — replace with your tray photography next.',
+    blurb: 'Center-stone pendants and solitaire necks.',
     shots: [
       {
         src: 'images/pendant.jpg',
@@ -376,7 +368,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'necklaces',
     image: 'images/necklace.jpg',
     alt: 'Gold chain necklace with diamond accents',
-    blurb: 'Placeholder cover — replace with your tray photography next.',
+    blurb: 'Gold chains and diamond accent necks.',
     shots: [
       {
         src: 'images/necklace.jpg',
@@ -391,7 +383,7 @@ export const catalogPieces: CatalogPiece[] = [
     line: 'loose-diamonds',
     image: 'images/diamond.jpg',
     alt: 'Brilliant cut loose diamond on cream silk',
-    blurb: 'Placeholder cover — replace with your loose goods photography next.',
+    blurb: 'Certified loose diamonds for setters and remounts.',
     shots: [
       {
         src: 'images/diamond.jpg',

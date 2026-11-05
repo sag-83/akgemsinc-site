@@ -36,7 +36,7 @@ export function Gallery({ active }: GalleryProps) {
         <div>
           <h2 className="type-head m-0">Catalog</h2>
           <p className="type-body mt-4 m-0 max-w-md text-[var(--muted)]">
-            {label}. Click a piece to open studio angles — full, casting, face, clasp.
+            {label}
           </p>
         </div>
         {pieces.length > 1 ? (
@@ -64,7 +64,7 @@ export function Gallery({ active }: GalleryProps) {
       {pieces.length === 0 ? (
         <div className="shell">
           <p className="type-lead m-0 text-[var(--muted)]">
-            Photos for this line are coming. Ask us for the full book meanwhile.
+            Contact us for availability in this line.
           </p>
         </div>
       ) : (
@@ -99,7 +99,7 @@ export function Gallery({ active }: GalleryProps) {
                 <div className="mt-4 flex items-baseline justify-between gap-4">
                   <h3 className="type-lead m-0 font-medium tracking-[-0.01em]">{piece.title}</h3>
                   <span className="type-small text-[var(--muted)]">
-                    {piece.shots.length > 1 ? `${piece.shots.length} angles` : productLines.find((line) => line.id === piece.line)?.name}
+                    {productLines.find((line) => line.id === piece.line)?.name}
                   </span>
                 </div>
               </button>
@@ -109,7 +109,8 @@ export function Gallery({ active }: GalleryProps) {
           {current ? (
             <div className="shell mt-8 border-t border-[var(--line)] pt-6">
               <p className="type-small m-0 text-[var(--muted)]">
-                Showing {index + 1} of {pieces.length}: {current.title}. Click to open angles.
+                {current.title}
+                {current.blurb ? ` — ${current.blurb}` : ''}
               </p>
             </div>
           ) : null}

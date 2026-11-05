@@ -33,14 +33,14 @@ export function Hero() {
             AK Gems Inc
           </p>
           <h1 data-rise style={{ '--i': 1 } as CSSProperties} className="type-hero m-0 text-[var(--bg)]">
-            Jewelry for the shops we call on
+            Fine jewelry for retail partners
           </h1>
           <p
             data-rise
             style={{ '--i': 2 } as CSSProperties}
             className="type-lead mt-5 m-0 max-w-xl text-[color-mix(in_srgb,var(--bg)_84%,transparent)]"
           >
-            A premium catalog presence for retail jewelers. See the lines. Share the site after a visit.
+            Wholesale bracelets, rings, and custom work for jewelers who need dependable product and clear service.
           </p>
           <div data-rise style={{ '--i': 3 } as CSSProperties} className="mt-8 flex flex-wrap gap-3">
             <a className="btn" href="#catalog">
@@ -50,7 +50,7 @@ export function Hero() {
               className="btn btn-ghost !text-[var(--bg)] shadow-[inset_0_0_0_1px_color-mix(in_srgb,var(--bg)_50%,transparent)]"
               href="#contact"
             >
-              Request a conversation
+              Contact us
             </a>
           </div>
         </div>

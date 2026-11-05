@@ -124,9 +124,9 @@ export function ProductDetail({ piece, onClose }: ProductDetailProps) {
 
           <aside className="flex flex-col gap-6 border-t border-[var(--line)] px-[var(--page)] py-6 sm:px-8 lg:border-t-0 lg:border-l">
             <div>
-              <p className="type-small m-0 text-[var(--muted)]">
-                Angle {shotIndex + 1} of {shots.length}: {shot.label}
-              </p>
+              {shots.length > 1 ? (
+                <p className="type-small m-0 text-[var(--muted)]">{shot.label}</p>
+              ) : null}
               {piece.blurb ? <p className="type-body mt-4 m-0 text-[var(--muted)]">{piece.blurb}</p> : null}
             </div>
 

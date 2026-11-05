@@ -3,23 +3,23 @@ import { asset } from '../lib/asset'
 const steps = [
   {
     title: 'Brief',
-    body: 'Share the client story, budget, metal, and timing. We listen before we sketch.',
+    body: 'Client needs, budget, metal preference, and timing.',
   },
   {
     title: 'Stone',
-    body: 'We select certified loose goods or matched pairs so the center leads the design.',
+    body: 'Certified loose goods or matched pairs selected for the center.',
   },
   {
     title: 'Design',
-    body: 'From scratch: proportions, setting style, and side-stone layout for your case.',
+    body: 'Proportions, setting style, and side-stone layout.',
   },
   {
     title: 'Craft',
-    body: 'Setting, polish, and finish. Built as a piece a retailer can stand behind.',
+    body: 'Setting, polish, and finish to trade standard.',
   },
   {
     title: 'Deliver',
-    body: 'Ready for the floor with clear specs you can show the client with confidence.',
+    body: 'Finished piece with clear specs for your client.',
   },
 ]
 
@@ -28,16 +28,15 @@ export function CustomShop() {
     <section id="custom" className="bg-[var(--bg-deep)] py-[clamp(4.5rem,9vw,7.5rem)]">
       <div className="shell grid items-center gap-12 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <h2 className="type-head m-0 max-w-[12ch]">Custom, built from scratch</h2>
+          <h2 className="type-head m-0 max-w-[12ch]">Custom work</h2>
           <p className="type-body mt-5 m-0 max-w-md text-[var(--muted)]">
-            When a jeweler needs something that is not already in the book, we curate the piece step
-            by step around the stone and the story.
+            When a piece is not already in the book, we design and build it around the stone and the client brief.
           </p>
           <a
             className="btn mt-8"
             href="mailto:info@akgemsinc.com?subject=Custom%20shop%20inquiry"
           >
-            Start a custom brief
+            Inquire about custom
           </a>
         </div>
 
