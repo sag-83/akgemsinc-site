@@ -263,6 +263,37 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'ring-titanium-eastwest',
+    title: 'East-west titanium emerald',
+    line: 'rings',
+    image: 'images/products/titanium-eastwest/cover.jpg',
+    alt: 'Matte black titanium ring with yellow-gold east-west emerald-cut diamond on cream silk',
+    blurb:
+      'Titanium fashion ring — matte black band, yellow-gold bar setting, ~2ct east-west emerald-cut diamond. Cover, face, profile, and angle views.',
+    shots: [
+      {
+        src: 'images/products/titanium-eastwest/cover.jpg',
+        alt: 'East-west black titanium emerald-cut diamond ring on cream silk',
+        label: 'Cover',
+      },
+      {
+        src: 'images/products/titanium-eastwest/face.jpg',
+        alt: 'Face view of emerald-cut diamond in yellow-gold setting on titanium',
+        label: 'Face',
+      },
+      {
+        src: 'images/products/titanium-eastwest/profile.jpg',
+        alt: 'Profile of black titanium ring with gold emerald setting',
+        label: 'Profile',
+      },
+      {
+        src: 'images/products/titanium-eastwest/angle.jpg',
+        alt: 'Three-quarter angle of east-west titanium emerald ring',
+        label: 'Angle',
+      },
+    ],
+  },
+  {
     id: 'earrings',
     title: 'Earring pairs',
     line: 'earrings',
