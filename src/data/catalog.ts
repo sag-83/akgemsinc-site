@@ -404,21 +404,6 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
-    id: 'earrings-pear-cascade',
-    title: 'Pear cascade drop earrings',
-    line: 'earrings',
-    image: 'images/products/pear-cascade/earrings.jpg',
-    alt: 'White gold pear-diamond cascade drop earrings on cream silk',
-    blurb: 'White gold drop earrings with three graduated pear diamonds on pavé bars.',
-    shots: [
-      {
-        src: 'images/products/pear-cascade/earrings.jpg',
-        alt: 'White gold pear-diamond cascade drop earrings on cream silk',
-        label: 'Overview',
-      },
-    ],
-  },
-  {
     id: 'pendant',
     title: 'Pendant work',
     line: 'pendants',
