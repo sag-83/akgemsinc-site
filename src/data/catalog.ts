@@ -378,6 +378,32 @@ export const catalogPieces: CatalogPiece[] = [
     ],
   },
   {
+    id: 'necklace-tubular-pave',
+    title: 'Tubular pavé tennis necklace',
+    line: 'necklaces',
+    image: 'images/products/tubular-tennis/cover.jpg',
+    alt: 'Yellow gold tubular pavé diamond tennis necklace on cream silk',
+    blurb:
+      'Yellow gold tubular links fully pavé-set with round diamonds, about 17 ct VVS-VS, 18 inch.',
+    shots: [
+      {
+        src: 'images/products/tubular-tennis/cover.jpg',
+        alt: 'Yellow gold tubular pavé diamond tennis necklace on cream silk',
+        label: 'Overview',
+      },
+      {
+        src: 'images/products/tubular-tennis/face.jpg',
+        alt: 'Close view of yellow gold tubular pavé diamond links',
+        label: 'Detail',
+      },
+      {
+        src: 'images/products/tubular-tennis/clasp.jpg',
+        alt: 'Barrel clasp on yellow gold tubular pavé tennis necklace',
+        label: 'Clasp',
+      },
+    ],
+  },
+  {
     id: 'earrings-pear-cascade',
     title: 'Pear cascade drop earrings',
     line: 'earrings',
@@ -389,11 +415,6 @@ export const catalogPieces: CatalogPiece[] = [
         src: 'images/products/pear-cascade/earrings.jpg',
         alt: 'White gold pear-diamond cascade drop earrings on cream silk',
         label: 'Overview',
-      },
-      {
-        src: 'images/products/pear-cascade/cover.jpg',
-        alt: 'Matching pear cascade necklace detail for the earring suite',
-        label: 'Suite',
       },
     ],
   },
@@ -409,36 +430,6 @@ export const catalogPieces: CatalogPiece[] = [
         src: 'images/pendant.jpg',
         alt: 'Diamond pendant necklace on beige linen',
         label: 'Overview',
-      },
-    ],
-  },
-  {
-    id: 'necklace-pear-cascade',
-    title: 'Pear cascade necklace',
-    line: 'necklaces',
-    image: 'images/products/pear-cascade/cover.jpg',
-    alt: 'White gold pear-diamond cascade necklace on cream silk',
-    blurb: 'White gold necklace with pear diamonds linked by pavé diamond bars.',
-    shots: [
-      {
-        src: 'images/products/pear-cascade/cover.jpg',
-        alt: 'White gold pear-diamond cascade necklace on cream silk',
-        label: 'Overview',
-      },
-      {
-        src: 'images/products/pear-cascade/face.jpg',
-        alt: 'Close view of pear diamonds and pavé bars',
-        label: 'Detail',
-      },
-      {
-        src: 'images/products/pear-cascade/necklace.jpg',
-        alt: 'Segment of pear cascade necklace with pavé connectors',
-        label: 'Segment',
-      },
-      {
-        src: 'images/products/pear-cascade/earrings.jpg',
-        alt: 'Matching pear cascade drop earrings',
-        label: 'Earrings',
       },
     ],
   },
