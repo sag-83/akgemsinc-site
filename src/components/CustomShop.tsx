@@ -52,9 +52,9 @@ export function CustomShop() {
         </div>
       </div>
 
-      <div className="shell mt-14 grid gap-px bg-[var(--line)] sm:grid-cols-2 lg:grid-cols-5">
+      <div className="shell mt-14 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
         {steps.map((step) => (
-          <article key={step.title} className="bg-[var(--bg-deep)] px-5 py-6">
+          <article key={step.title}>
             <h3 className="type-lead m-0 font-medium">{step.title}</h3>
             <p className="type-small mt-3 m-0 text-[var(--muted)]">{step.body}</p>
           </article>

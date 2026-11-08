@@ -12,40 +12,45 @@ export function Lines({ active, onSelect }: LinesProps) {
   }
 
   return (
-    <section id="lines" className="border-y border-[var(--line)] bg-[var(--bg-deep)] py-[clamp(4rem,8vw,6.5rem)]">
+    <section id="lines" className="bg-[var(--bg-deep)] py-[clamp(4.5rem,9vw,7.5rem)]">
       <div className="shell">
-        <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-          <h2 className="type-head m-0 max-w-[10ch]">Product lines</h2>
+        <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h2 className="type-head m-0 max-w-[12ch]">Product lines</h2>
+            <p className="type-body mt-4 m-0 max-w-md text-[var(--muted)]">
+              Choose a line to browse the full catalog, or stay with featured pieces.
+            </p>
+          </div>
           <button
             type="button"
             onClick={() => select('all')}
-            className={`type-small self-start font-medium tracking-[0.06em] uppercase underline-offset-4 ${
-              active === 'all' ? 'underline' : 'opacity-60 hover:opacity-100'
+            className={`type-small self-start font-medium tracking-[0.08em] uppercase transition-opacity ${
+              active === 'all' ? 'opacity-100' : 'opacity-55 hover:opacity-100'
             }`}
           >
-            View all
+            Featured
           </button>
         </div>
 
-        <ul className="m-0 grid list-none gap-px bg-[var(--line)] p-0 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="m-0 grid list-none gap-x-10 gap-y-10 p-0 sm:grid-cols-2 lg:grid-cols-3">
           {productLines.map((line) => {
             const isActive = active === line.id
             return (
-              <li key={line.id} className="bg-[var(--bg-deep)]">
+              <li key={line.id}>
                 <button
                   type="button"
                   onClick={() => select(line.id)}
-                  className={`flex h-full w-full flex-col gap-3 px-5 py-6 text-left transition-colors ${
-                    isActive ? 'bg-[var(--accent)] text-[var(--accent-ink)]' : 'bg-[var(--bg)] hover:bg-[var(--bg-deep)]'
-                  }`}
+                  className="group flex w-full flex-col gap-2 text-left"
                   aria-pressed={isActive}
                 >
-                  <span className="type-lead font-medium tracking-[-0.01em]">{line.name}</span>
                   <span
-                    className={`type-small ${isActive ? 'text-[color-mix(in_srgb,var(--accent-ink)_80%,transparent)]' : 'text-[var(--muted)]'}`}
+                    className={`type-lead font-medium tracking-[-0.01em] transition-colors ${
+                      isActive ? 'text-[var(--accent)]' : 'text-[var(--ink)] group-hover:text-[var(--accent)]'
+                    }`}
                   >
-                    {line.blurb}
+                    {line.name}
                   </span>
+                  <span className="type-small text-[var(--muted)]">{line.blurb}</span>
                 </button>
               </li>
             )

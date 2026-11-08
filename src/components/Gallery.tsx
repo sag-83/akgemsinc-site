@@ -1,5 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { catalogPieces, productLines, type CatalogPiece, type ProductLineId } from '../data/catalog'
+import {
+  catalogPieces,
+  featuredPieceIds,
+  productLines,
+  type CatalogPiece,
+  type ProductLineId,
+} from '../data/catalog'
 import { asset } from '../lib/asset'
 import { ProductDetail } from './ProductDetail'
 
@@ -8,10 +14,14 @@ type GalleryProps = {
 }
 
 export function Gallery({ active }: GalleryProps) {
-  const pieces = useMemo(
-    () => (active === 'all' ? catalogPieces : catalogPieces.filter((piece) => piece.line === active)),
-    [active],
-  )
+  const pieces = useMemo(() => {
+    if (active === 'all') {
+      const byId = new Map(catalogPieces.map((piece) => [piece.id, piece]))
+      return featuredPieceIds.map((id) => byId.get(id)).filter((piece): piece is CatalogPiece => Boolean(piece))
+    }
+    return catalogPieces.filter((piece) => piece.line === active)
+  }, [active])
+
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState<CatalogPiece | null>(null)
   const scrollerRef = useRef<HTMLDivElement>(null)
@@ -27,17 +37,19 @@ export function Gallery({ active }: GalleryProps) {
   }, [index])
 
   const current = pieces[Math.min(index, Math.max(pieces.length - 1, 0))]
-  const label =
-    active === 'all' ? 'Featured collection' : productLines.find((line) => line.id === active)?.name
+  const lineName = productLines.find((line) => line.id === active)?.name
+  const heading = active === 'all' ? 'Featured' : lineName ?? 'Catalog'
+  const subcopy =
+    active === 'all'
+      ? 'A short selection of signature pieces. Open a product line above for the full book.'
+      : `Full ${lineName?.toLowerCase() ?? 'line'} catalog.`
 
   return (
     <section id="catalog" className="bg-[var(--bg)] py-[clamp(4.5rem,9vw,7.5rem)]">
       <div className="shell mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <h2 className="type-head m-0">Catalog</h2>
-          <p className="type-body mt-4 m-0 max-w-md text-[var(--muted)]">
-            {label}
-          </p>
+          <h2 className="type-head m-0">{heading}</h2>
+          <p className="type-body mt-4 m-0 max-w-lg text-[var(--muted)]">{subcopy}</p>
         </div>
         {pieces.length > 1 ? (
           <div className="flex gap-2">
@@ -63,9 +75,7 @@ export function Gallery({ active }: GalleryProps) {
 
       {pieces.length === 0 ? (
         <div className="shell">
-          <p className="type-lead m-0 text-[var(--muted)]">
-            Contact us for availability in this line.
-          </p>
+          <p className="type-lead m-0 text-[var(--muted)]">Contact us for availability in this line.</p>
         </div>
       ) : (
         <>
@@ -106,9 +116,9 @@ export function Gallery({ active }: GalleryProps) {
             ))}
           </div>
 
-          {current ? (
-            <div className="shell mt-8 border-t border-[var(--line)] pt-6">
-              <p className="type-small m-0 text-[var(--muted)]">{current.blurb ?? current.title}</p>
+          {current?.blurb ? (
+            <div className="shell mt-8">
+              <p className="type-small m-0 max-w-2xl text-[var(--muted)]">{current.blurb}</p>
             </div>
           ) : null}
         </>

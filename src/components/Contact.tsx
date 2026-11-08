@@ -14,30 +14,25 @@ export function Contact() {
         <div className="flex flex-col gap-6 lg:col-span-6 lg:col-start-7">
           <a
             href={`mailto:${contact.email}?subject=Trade%20inquiry%20from%20akgemsinc.com`}
-            className="group border-b border-[var(--line)] pb-5 transition-opacity hover:opacity-70"
+            className="group transition-opacity hover:opacity-70"
           >
             <span className="type-small block text-[var(--muted)]">Email</span>
-            <span className="type-head mt-2 block">{contact.email}</span>
+            <span className="type-lead mt-2 block font-medium tracking-[-0.01em]">{contact.email}</span>
           </a>
 
-          <a
-            href={`tel:${contact.phoneTel}`}
-            className="group border-b border-[var(--line)] pb-5 transition-opacity hover:opacity-70"
-          >
+          <a href={`tel:${contact.phoneTel}`} className="group transition-opacity hover:opacity-70">
             <span className="type-small block text-[var(--muted)]">Phone</span>
-            <span className="type-head mt-2 block">{contact.phoneDisplay}</span>
+            <span className="type-lead mt-2 block font-medium tracking-[-0.01em]">{contact.phoneDisplay}</span>
           </a>
 
           <a
             href={contact.mapsUrl}
             target="_blank"
             rel="noreferrer"
-            className="group border-b border-[var(--line)] pb-5 transition-opacity hover:opacity-70"
+            className="group transition-opacity hover:opacity-70"
           >
             <span className="type-small block text-[var(--muted)]">New York office</span>
-            <span className="type-lead mt-2 block font-medium tracking-[-0.01em]">
-              {contact.addressLine1}
-            </span>
+            <span className="type-lead mt-2 block font-medium tracking-[-0.01em]">{contact.addressLine1}</span>
             <span className="type-body mt-1 block text-[var(--muted)]">{contact.addressLine2}</span>
           </a>
 
@@ -45,10 +40,10 @@ export function Contact() {
             href={contact.instagramUrl}
             target="_blank"
             rel="noreferrer"
-            className="group border-b border-[var(--line)] pb-5 transition-opacity hover:opacity-70"
+            className="group transition-opacity hover:opacity-70"
           >
             <span className="type-small block text-[var(--muted)]">Instagram</span>
-            <span className="type-head mt-2 block">{contact.instagramHandle}</span>
+            <span className="type-lead mt-2 block font-medium tracking-[-0.01em]">{contact.instagramHandle}</span>
           </a>
 
           <a className="btn mt-2 w-fit" href={`mailto:${contact.email}`}>

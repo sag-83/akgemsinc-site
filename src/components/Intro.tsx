@@ -8,7 +8,7 @@ export function Intro() {
             AK Gems Inc supplies retail jewelers with finished goods and custom work from our New York office.
           </p>
           <p className="type-body mt-5 m-0 text-[var(--muted)]">
-            Browse the lines below, then reach out for availability, pricing, and appointments.
+            Start with featured pieces, open a product line for the full book, then reach out for pricing and appointments.
           </p>
         </div>
       </div>

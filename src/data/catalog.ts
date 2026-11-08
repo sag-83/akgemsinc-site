@@ -81,6 +81,17 @@ export const productLines: ProductLine[] = [
   },
 ]
 
+/** Curated covers for the Featured strip — full line catalogs open via Product lines. */
+export const featuredPieceIds: string[] = [
+  'ring-titanium-groove',
+  'ring-titanium-exclusive',
+  'bracelet-emerald-tennis',
+  'bracelet-pear',
+  'bracelet-multi-shape',
+  'pendant',
+  'bracelet-heart',
+]
+
 export const catalogPieces: CatalogPiece[] = [
   {
     id: 'bracelet-bezel-tennis',
@@ -198,31 +209,6 @@ export const catalogPieces: CatalogPiece[] = [
       {
         src: 'images/products/emerald-tennis/clasp.jpg',
         alt: 'Clasp on yellow gold emerald-cut tennis bracelet',
-        label: 'Clasp',
-      },
-    ],
-  },
-  {
-    id: 'bracelet-round-tennis',
-    title: 'Round tennis bracelet',
-    line: 'bracelets',
-    image: 'images/products/round-tennis/cover.jpg',
-    alt: 'Yellow gold round brilliant diamond tennis bracelet on cream silk',
-    blurb: '14K yellow gold tennis bracelet with round brilliant diamonds.',
-    shots: [
-      {
-        src: 'images/products/round-tennis/cover.jpg',
-        alt: 'Yellow gold round diamond tennis bracelet on cream silk',
-        label: 'Overview',
-      },
-      {
-        src: 'images/products/round-tennis/face.jpg',
-        alt: 'Close view of round brilliant diamonds in yellow gold',
-        label: 'Detail',
-      },
-      {
-        src: 'images/products/round-tennis/clasp.jpg',
-        alt: 'Clasp on yellow gold round diamond tennis bracelet',
         label: 'Clasp',
       },
     ],
@@ -374,32 +360,6 @@ export const catalogPieces: CatalogPiece[] = [
         src: 'images/products/titanium-groove/angle.jpg',
         alt: 'Three-quarter view of grooved titanium emerald ring',
         label: 'Side',
-      },
-    ],
-  },
-  {
-    id: 'necklace-tubular-pave',
-    title: 'Tubular pavé tennis necklace',
-    line: 'necklaces',
-    image: 'images/products/tubular-tennis/cover.jpg',
-    alt: 'Yellow gold tubular pavé diamond tennis necklace on cream silk',
-    blurb:
-      'Yellow gold tubular links fully pavé-set with round diamonds, about 17 ct VVS-VS, 18 inch.',
-    shots: [
-      {
-        src: 'images/products/tubular-tennis/cover.jpg',
-        alt: 'Yellow gold tubular pavé diamond tennis necklace on cream silk',
-        label: 'Overview',
-      },
-      {
-        src: 'images/products/tubular-tennis/face.jpg',
-        alt: 'Close view of yellow gold tubular pavé diamond links',
-        label: 'Detail',
-      },
-      {
-        src: 'images/products/tubular-tennis/clasp.jpg',
-        alt: 'Barrel clasp on yellow gold tubular pavé tennis necklace',
-        label: 'Clasp',
       },
     ],
   },
